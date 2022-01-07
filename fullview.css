@@ -1,0 +1,43 @@
+
+.fullviewdesign h3 {
+    line-height: 50px;
+    background-color: #1FCCA2;
+    text-align: center;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+.fullviewdesign{
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    padding: 0;
+    place-items: center;
+
+}
+.fullviewdesign ul{
+    padding: 30px 25px 25px 25px;
+    list-style: none;
+}
+.fullviewdesign p{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: cornflowerblue;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.fullviewdesign li{
+    padding: 5px;
+}
+.detail{
+    color: cornflowerblue;
+}
+.firstline{
+    color: #1FCCA2;
+}

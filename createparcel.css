@@ -1,0 +1,213 @@
+
+body{
+    background-color: #F5ECEC;
+    font-family: "sans-serif";
+}
+
+.headings{
+    color: #0E4A4A;
+    text-align: center;
+
+}
+#Navbar ul{
+    list-style: none;
+    background-color: #0E4A4A;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#Navbar li{
+    display: inline-block;
+}
+
+#Navbar a{
+    display: block;
+    text-decoration: none;
+    font-family: Arial;
+    color: #FFFFFF ;
+    padding: 25px 20px;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+#Navbar a:hover{
+    color: #000000;
+}
+
+/* form body and details*/
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px auto;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.category{
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 20px;
+    place-items: center;
+    align-content: center;
+    display: block;
+    float: left;
+    margin: 0px 10px;
+    transition: 1s;
+    border:5px solid #ccc ;
+}
+.category form{
+    padding: 30px 25px 25px 25px;
+}
+@media screen and (max-width: 1200px){
+    .category{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 600px){
+    .category.successmessagebox{
+        width: 40%;
+    }
+}
+.category h3 {
+    line-height: 80px;
+    background-color: #1FCCA2;
+    text-align: center;
+    padding-left: 20px;
+    border-radius: 5px 5px 0 0;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+/*buttons */
+.button{
+    width: 100%;
+    background-color: #0E4A4A;
+    color: #F5ECEC;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkcyan;
+}
+/* input designs */
+input[type = date]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type = time]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type = text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type = number]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type = email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type = tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/*successmessage*/
+.successmessagebox{
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    padding: 0;
+    place-items: center;
+}
+.successmessagebox span{
+    color:darkgreen;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.successmessagebox p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+}
+/*alertbox design*/
+.alertbox{
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: auto;
+    padding: 0;
+    place-items: center;
+    
+
+}
+.alertbox ol{
+    padding: 30px 25px 25px 25px;
+}
+.alertbox li{
+    padding: 5px;
+    color: red;
+}
+.alertbox p{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #1FCCA2;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
